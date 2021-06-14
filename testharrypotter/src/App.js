@@ -7,6 +7,8 @@ import hpleters from './Assets/hpleters.png'
 import { Btn } from './Components/Btn';
 import { Staff } from './Staff';
 import { Students } from './Students';
+import { StaffDead } from './StaffDaed';
+import { StudentsDead } from './StudentsDead';
 
 import MainState from './context'
 
@@ -27,8 +29,14 @@ function App() {
               <Route path='/staff'>
                 <Staff />
               </Route>
+              <Route path='/staffDead'>
+                <StaffDead />
+              </Route>
               <Route path='/students'>
                 <Students />
+              </Route>
+              <Route path='/studentsDead'>
+                <StudentsDead />
               </Route>
               <Route exact path='/'>
                 <DataCharacters />

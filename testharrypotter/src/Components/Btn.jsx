@@ -11,10 +11,19 @@ export const Btn = () => {
     function handleClickStudents() {
         history.push('/students');
     }
+    function handleClickStudentsDaed() {
+        history.push('/studentsDead');
+    }
+    function handleClickStaffDaed() {
+        history.push('/staffDead');
+    }
     return (
         <div className={styles.btnS}>
             <button onClick = {handleClickStudents}>ESTUDIANTES</button>
+            <button onClick = {handleClickStudentsDaed}>ESTUDIANTES MUERTOS</button>
             <button onClick = {handleClickStaff}>STAFF</button>
+            
+            <button onClick = {handleClickStaffDaed}>STAFF MUERTO</button>
         </div>
     )
 }
