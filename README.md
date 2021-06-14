@@ -25,7 +25,7 @@ Como entregable final tendrás una página web que permita visualizar la data, c
       npm start 
       npm run hp
   - De esta forma podrás tener acceso a la aplicación mediante el servidor localhost.
-  - Al momento de darle clic a los botones Estudiantes y Staff podrás visualizar los personajes que corresponden a esa categoría así mismo se mostrara un juego de colores en los    botones ya se que solo pases el mouse o le des clic.
+  - Al momento de darle clic a los botones Estudiantes y Staff podrás visualizar los personajes que corresponden a esa categoría así mismo se mostrara un juego de colores en los    botones ya sea que solo pases el mouse sobre el o le des clic.
   - La aplicación también es mobile así que se puede ajustar a dispositivos celulares.
 
   ![](/testharrypotter/src/Assets/mobile.png)
