@@ -29,8 +29,8 @@ Como entregable final tendrás una página web que permita visualizar la data, c
   - La aplicación también es mobile así que se puede ajustar a dispositivos celulares.
 
 
-![](/testharrypotter/src/assets/mobile.png)
-![](/testharrypotter/src/assets/dsktop.png)
+![](/src/assets/mobile.png)
+![](/src/assets/dsktop.png)
   
 # comentarios sobre el proyecto:
  ## ¿Qué es lo que más te gustó de tu desarrollo?
