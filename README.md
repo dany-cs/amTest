@@ -28,9 +28,8 @@ Como entregable final tendrás una página web que permita visualizar la data, c
   - Al momento de darle clic a los botones Estudiantes y Staff podrás visualizar los personajes que corresponden a esa categoría así mismo se mostrara un juego de colores en los    botones ya se que solo pases el mouse o le des clic.
   - La aplicación también es mobile así que se puede ajustar a dispositivos celulares.
 
-
-![](/testharrypotter/src/assets/mobile.png)
-![](/testharrypotter/src/assets/dsktop.png)
+  ![](/testharrypotter/src/assets/mobile.png)
+  ![](/testharrypotter/src/assets/dsktop.png)
   
 # comentarios sobre el proyecto:
  ## ¿Qué es lo que más te gustó de tu desarrollo?
