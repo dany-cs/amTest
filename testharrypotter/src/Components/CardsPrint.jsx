@@ -13,10 +13,10 @@ export const CardsPrint = (props) => {
     <>
       <div className={styles.card}>
         <div className={styles.pic}>
-          <img src={props.characters.image} alt="person" />
+          <img src={props.characters.image} alt="person"/>
         </div>
         <div className={styles.profileData}>
-          <img src={favoriteImage} alt="favorites" onClick={()=>setFavorite(props.characters)}/>
+          <img src={favoriteImage} alt="favorites" onClick={()=>setFavorite(props.characters)} style={(favorites.findIndex(item=>item.image===props.characters.image)>-1)?{background:"blue"}:{}}/>
           <h1>{props.characters.name}</h1>
           <div className={styles.leters}>
             <p>Cumpleaños: {props.characters.dateOfBirth}</p>
