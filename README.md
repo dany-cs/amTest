@@ -9,7 +9,7 @@ El éxito de las novelas ha hecho de la marca Harry Potter una de las más exito
   
 Como entregable final tendrás una página web que permita visualizar la data, contendrá dos botones de filtrado, debes poder agregar más personajes y podrás guardar tus personajes favoritos (maximo 5).
 
-# 3.Caracteristicas a cumplir
+# 3.Características a cumplir
 - Debes usar React en una versión superior o igual a la 15.6.2 
 - Usaras SASS para el manejo de estilos.
 - La funcionalidad para agregar un nuevo personaje deberá de realizarse implementando la librería JSON Server.
@@ -17,5 +17,7 @@ Como entregable final tendrás una página web que permita visualizar la data, c
 - Debe ser modo mobile, cambio de color de acuerdo con la casa a la que pertenece el personaje, estados de botones, etc.
 - En la funcionalidad de agregar a favoritos se utilizará Redux.
 - Preferentemente deberás incluir pruebas unitarias.
+
+**Instrucciones**
 
 
