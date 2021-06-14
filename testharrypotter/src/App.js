@@ -8,29 +8,33 @@ import { Btn } from './Components/Btn';
 import { Staff } from './Staff';
 import { Students } from './Students';
 
+import MainState from './context'
+
 
 function App() {
   return (
     <>
       <Router>
         <Switch>
-          <div className={styles.App}>
-            <div className={styles.fondo}>
-              <Elements />
-              <img className={styles.hp} src={hpleters} alt="hpLeters" />
-              <h1>Selecciona tu filtro</h1>
-              <Btn />
+          <MainState>
+            <div className={styles.App}>
+              <div className={styles.fondo}>
+                <Elements />
+                <img className={styles.hp} src={hpleters} alt="hpLeters" />
+                <h1>Selecciona tu filtro</h1>
+                <Btn />
               </div>
-            <Route path='/staff'>
-              <Staff />
-            </Route>
-            <Route path='/students'>
-              <Students />
-            </Route>
-            <Route exact path='/'>
-              <DataCharacters />
-            </Route>
-          </div>
+              <Route path='/staff'>
+                <Staff />
+              </Route>
+              <Route path='/students'>
+                <Students />
+              </Route>
+              <Route exact path='/'>
+                <DataCharacters />
+              </Route>
+            </div>
+          </MainState>
         </Switch>
       </Router>
     </>

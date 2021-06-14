@@ -1,8 +1,14 @@
-import React from "react";
-import favorites from "../Assets/favorites.png";
+import React, { useContext } from "react";
+import favoriteImage from "../Assets/favorites.png";
 import styles from "./CardsPrint.module.scss";
 
+import {MainContext} from '../context';
+
+
 export const CardsPrint = (props) => {
+  const mainContext = useContext(MainContext);
+  const {favorites,setFavorite} = mainContext;
+
   return (
     <>
       <div className={styles.card}>
@@ -10,7 +16,7 @@ export const CardsPrint = (props) => {
           <img src={props.characters.image} alt="person" />
         </div>
         <div className={styles.profileData}>
-          <img src={favorites} alt="favorites" />
+          <img src={favoriteImage} alt="favorites" onClick={()=>setFavorite(props.characters)}/>
           <h1>{props.characters.name}</h1>
           <div className={styles.leters}>
             <p>Cumpleaños: {props.characters.dateOfBirth}</p>
