@@ -34,7 +34,7 @@ Como entregable final tendrás una página web que permita visualizar la data, c
 # comentarios sobre el proyecto:
  ## ¿Qué es lo que más te gustó de tu desarrollo?
 -
-  Los restos siempre me gustan y este fue uno muy grande ya que nunca había usado SASS, JSON SERVER Y REDUX. La parte divertida de esto es aprender cosas nuevas y seguir descubriendo muchas formas de solucionar un problema. 
+  Los retos siempre me gustan y este fue uno muy grande ya que nunca había usado SASS, JSON SERVER Y REDUX. La parte divertida de esto es aprender cosas nuevas y seguir descubriendo muchas formas de solucionar un problema. 
  ## Si hubieras tenido más tiempo ¿qué hubieras mejorado o qué más hubieras hecho?
  
  -
@@ -44,7 +44,7 @@ Como entregable final tendrás una página web que permita visualizar la data, c
 
 ### Me pasaron dos situaciones:
 - Una fue al levantar la data en el Json-server me costo un poco de trabajo ya que no lo había echo antes, encontré la solución y fue darle un script directo y ahora solo con el comando npm run hp puedo levantar el servidor sin problemas.
-- El siguiente caso fue con git me mandaba un error 5000, así que desinstale todo el package-lock.json eh instale de nuevo y listo.
+- El siguiente caso fue con git me mandaba un error 5000, así que desinstale todo el package-lock.json e instale de nuevo y listo.
 
 
  
