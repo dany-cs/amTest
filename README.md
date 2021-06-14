@@ -19,11 +19,10 @@ Como entregable final tendrás una página web que permita visualizar la data, c
 - Preferentemente deberás incluir pruebas unitarias.
 
 # Instrucciones
-  - Deberás descargar el proyecto en una carpeta de tu elección y única.
+  - Deberás descargar 'o clonar el proyecto en una carpeta de tu elección y única.
   - Abrir el proyecto en VSC o en tu editor de código preferido.
-  - Una vez instalado debes abrir tu terminal y correr dos servidores con los siguientes  comandos:
-      npm start 
-      npm run hp
+  - Deberas instalar las dependencias con el comando npm install en tu terminal. 
+  - Una vez instalado correr dos servidores en tu terminal con los siguientes comandos: npm start npm run hp
   - De esta forma podrás tener acceso a la aplicación mediante el servidor localhost.
   - Al momento de darle clic a los botones Estudiantes y Staff podrás visualizar los personajes que corresponden a esa categoría así mismo se mostrara un juego de colores en los    botones ya sea que solo pases el mouse sobre el o le des clic.
   - La aplicación también es mobile así que se puede ajustar a dispositivos celulares.
